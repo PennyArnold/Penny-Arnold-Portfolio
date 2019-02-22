@@ -27,7 +27,7 @@
 
     <!-- Theme CSS - Includes Bootstrap -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link href="assets/css/LandingPage.css" rel="stylesheet" />
+    <link href="assets\css\LandingPage.css" rel="stylesheet" />
 
   
 
@@ -61,7 +61,7 @@
       id="mainNav"
     >
       <div class="container bg-primary" style="width: 100%">
-        <!--<img class="logo navbar-left" src="assets/images/logo.png" />-->
+       
         <a class="navbar-brand js-scroll-trigger bg-primary" href="#page-top"
           >Penny Arnold</a
         >
@@ -74,8 +74,9 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon d-sm-flex"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item">
@@ -92,6 +93,11 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger">|</a>
             </li>
+            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger mr-1" href="assets\Penny Arnold.pdf" target="_blank">Resume</a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="https://github.com/PennyArnold" target="_blank"
                 >GitHub</a
@@ -143,7 +149,13 @@
             </h2>
             <hr class="divider light my-4" />
             <h3 class="text-black font-weight-bold mb-4">
-             
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white font-weight-bold mt-0">
+
                 <a href="https://pennyarnold.github.io/Giftastic/" target="_blank">
                     <img class="m-2" src="assets\images\GIPH1.PNG" >
                   </a>
@@ -164,24 +176,25 @@
                   <img class="m-2" src="assets\images\AGC.PNG"> 
                 </a> 
             </h3>
-
+            <br>
+            <br>
             <a class="btn btn-light text-primary btn-xl js-scroll-trigger" href="#eligibility">My Expertise</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Skills Section -->
     <section class="page-section" id="eligibility">
       <div class="container">
         <h1 class="text-center text-primary font-weight-bold mt-0">
           My Expertise
         </h1>
         <hr class="divider my-4" />
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <i class="fa fa-html5 fa-2x text-primary" aria-hidden="true">  HTML 5</i>
+        <div class="row text-center">
+          <div class="col-lg-12 col-md-6 text-center">
+            <div class="mt-4 text-center">
+              <i class="fa fa-html5 fa-2x text-primary text-center" aria-hidden="true">  HTML 5</i>
               <br><br>
               <i class="fa fa-css3 fa-2x text-primary" aria-hidden="true">  CSS</i>
               <br><br>
@@ -202,13 +215,7 @@
       </div>
     </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+  
     <!-- Custom scripts for this template -->
     <script src="assets/javascript/LandingPage.js"></script>
   </body>
